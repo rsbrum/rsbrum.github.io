@@ -1989,7 +1989,7 @@ ul.social_icon li a.google:focus {
     opacity: 1;
 }
 .cbp-popup-singlePage .cbp-popup-navigation-wrap {
-    background: #28a745;
+    background: #0A437E;
 }
 .cbp-popup-singlePage .cbp-popup-navigation-wrap:before {
     position: absolute;
@@ -3200,6 +3200,7 @@ ul.rounded li::before {
    Media Queries
 ====================================== */
 
+  
 @media (max-width: 1280px) and (min-width: 992px) {
 
     .about-img {
@@ -3208,9 +3209,16 @@ ul.rounded li::before {
     .image img.about-img {
         height: 580px;
     }
+
 }
 
 @media screen and (max-width: 1199px) {
+
+    .cbp-item-custom-size {
+        max-height: 213px !important;
+        max-width: 302px !important;
+      }
+
     h1, .h1{
         font-size: 3.56rem;
     }
