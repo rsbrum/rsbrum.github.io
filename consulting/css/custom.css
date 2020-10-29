@@ -1,0 +1,47 @@
+/*-- Use For Custom Styling --*/
+.bg-ga {
+    background: #0A437E;
+}
+.bg-yellow-ga {
+    background: #e6e600 !important;
+    color:#1f1f1f;
+}
+
+#slide1 {
+    background-color: #0a437e;
+    background-image: linear-gradient(43deg, #0a437e 0%, #3078c9 39%, #0a437e 100%);
+
+}
+
+#logo-rotate {
+    display: inline-block;
+    animation: rotation 12s infinite linear ;
+  }
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+}
+
+#logo-rotate2 {
+    display: inline-block;
+    animation: rotation 2s infinite linear ;
+    height: 80px;
+    width: 80px;
+  }
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+}
+
+.btn-transparent {
+    border: 1px solid #0A437E;
+    background: transparent;
+}
