@@ -617,6 +617,20 @@ nav .btn-setting {
     color: #ffffff;
 }
 
+.btn-yellow {
+    border-color: #e6e600;
+    background-color: #e6e600;
+    color: #1f1f1f;
+}
+
+.btn-yellow:before {
+}
+
+.btn-blue.btn-scale:before {
+    background: #0A437E;
+    color: #ffffff !important;
+}
+
 .btn-green {
     border-color: #28a745;
     background-color: #28a745;
@@ -703,12 +717,12 @@ nav .btn-setting {
    Social Icon Hover
 ====================================== */
 /*icon bg hover */
-.facebook-bg-hvr:hover{background:#4267B2 !important;color: #fff !important; border: 1px solid transparent !important;}
-.twitter-bg-hvr:hover{background:#1DA1F2 !important;color: #fff !important; border: 1px solid transparent !important;}
-.instagram-bg-hvr:hover{background:#C32AA3 !important;color: #fff !important; border: 1px solid transparent !important;}
-.linkedin-bg-hvr:hover{background:#0077B5 !important;color: #fff !important; border: 1px solid transparent !important;}
-.pinterest-bg-hvr:hover{background:#BD081C !important;color: #fff !important; border: 1px solid transparent !important;}
-.google-bg-hvr:hover{background:#DB4437 !important;color: #fff !important; border: 1px solid transparent !important;}
+.facebook-bg-hvr{background:#4267B2 !important;color: #fff !important; border: 1px solid transparent !important;}
+.twitter-bg-hvr{background:#1DA1F2 !important;color: #fff !important; border: 1px solid transparent !important;}
+.instagram-bg-hvr{background:#C32AA3 !important;color: #fff !important; border: 1px solid transparent !important;}
+.linkedin-bg-hvr{background:#0077B5 !important;color: #fff !important; border: 1px solid transparent !important;}
+.pinterest-bg-hvr{background:#BD081C !important;color: #fff !important; border: 1px solid transparent !important;}
+.google-bg-hvr{background:#DB4437 !important;color: #fff !important; border: 1px solid transparent !important;}
 
 /*icon text hover */
 .facebook-text-hvr:hover{color:#4267B2 !important;}
@@ -2420,7 +2434,7 @@ ul.social_icon li a.google:focus {
     right: 5px;
     left: 5px;
     bottom: 5px;
-    background: #28a745;
+    background:#0A437E;
     border-radius: 50%;
     z-index: 0;
     opacity: 1;
@@ -2436,7 +2450,7 @@ ul.social_icon li a.google:focus {
     position: relative;
 }
 .process-box:hover .pro-step i {
-    color: #28a745;
+    color:#0A437E;
 }
 
 /* ===================================
