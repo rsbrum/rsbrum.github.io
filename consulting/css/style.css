@@ -555,12 +555,20 @@ button:hover, button:active, button:focus {
     -o-transition: all .5s ease;
     transition: all .5s ease !important;
 }
+
+.btn-setting:hover {
+    background: #0A437E;
+    color: #ffff !important;
+    transition: 1s;
+}
+
 nav .btn-setting {
     font-size: 14px;
     font-weight: 600;
     padding: 10px 20px;
     text-transform: uppercase;
 }
+
 .btn-scale {
     border: none;
 }
@@ -579,7 +587,9 @@ nav .btn-setting {
     -moz-transition: all 0.7s;
     transition: all 0.7s;
     overflow: hidden;
+    color: #f8f9fa !important;
 }
+
 .btn-setting:hover.btn-scale:before, .btn-setting:active.btn-scale:before, .btn-setting:focus.btn-scale:before {
     top: 0;
     left: 0;
@@ -587,11 +597,16 @@ nav .btn-setting {
     -o-transition: all 0.7s;
     -moz-transition: all 0.7s;
     transition: all 0.7s;
+    color: #f8f9fa !important;
 }
 .btn-blue.btn-scale:before {
-    background:#e6e600;
-    color:#1f1f1f !important;
+    background:#e6e600;}
+
+.btn-yellow.btn-scale:before {
+    background: #0A437E;
+    color: #f8f9fa !important;
 }
+
 .btn-green.btn-scale:before {
     background: #0A437E;
 }
@@ -620,7 +635,7 @@ nav .btn-setting {
 .btn-yellow {
     border-color: #e6e600;
     background-color: #e6e600;
-    color: #1f1f1f;
+    color: #1f1f1f !important;
 }
 
 .btn-yellow:before {
