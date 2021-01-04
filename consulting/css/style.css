@@ -84,10 +84,10 @@
     background-color: #3e8e41;
   }
 .font-primary {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Circular Book';
 }
 .font-secondary {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Circular Book';
 }
 
 /* ===================================
@@ -95,7 +95,7 @@
 ====================================== */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Circular Book';
     font-size: 15px;
     color: #666666;
     font-weight: 300;
@@ -921,7 +921,7 @@ nav .btn-setting {
 }
 
 .navbar-top-default .navbar-nav .nav-link {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Circular Book';
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
@@ -1442,7 +1442,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     top: 43% !important;
 }
 .awaza .tp-bullet .tp-count {
-    font-family: 'Raleway', sans-serif;
+    font-family:'Circular Book';
     font-size: 14px;
     position: relative;
 }
@@ -1591,7 +1591,7 @@ header.header-appear .navbar-top-default .header-social a:hover {
     text-align: center;
 }
 .main-title h5 {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Circular Book';
     font-weight: 400;
     margin-bottom: 1.1rem;
     color: #1f1f1f;
@@ -2221,7 +2221,7 @@ ul.social_icon li a.google:focus {
     font-weight: 100;
 }
 .price span.month{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Circular Book';
     font-size: 15px;
     font-weight: 400;
     color: #1f1f1f;

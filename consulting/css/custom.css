@@ -9,8 +9,7 @@
 
 #slide1 {
     background-color: #0a437e;
-    background-image: linear-gradient(43deg, #0a437e 0%, #3078c9 39%, #0a437e 100%);
-
+    background-image:url('./assets/fundo16.png'); background-repeat: no-repeat;  background-size: cover; 
 }
 
 /*
