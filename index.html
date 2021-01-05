@@ -26,6 +26,10 @@
             font-display: swap;
             src: url("./assets/CircularStd-Book.otf") format('opentype');
         }
+
+        body{
+            font-family: 'Circular Book' !important;
+        }
     </style>
     <!-- 
     <link
@@ -121,13 +125,13 @@
                 <nav class="side-nav w-100">
                     <div class="navbar-nav">
                         <a href="#home" class="scroll nav-link">home</a>
-                        <a href="#aboutus" class="scroll nav-link">sobre nós</a>
                         <a href="#cases" class="scroll nav-link">funcionalidades</a>
                         <!-- 
                     <a href="#prices" class="scroll nav-link">prices</a>
                     <a href="#blog" class="scroll nav-link">blog</a>
-                    -->
-                        <a href="#contact" class="scroll nav-link">Contato</a>
+                    "d-xs-block d-sm-block d-md-block d-lg-none""d-xs-none d-sm-none d-md-none d-lg-block"-->
+                        <a href="#contact" class="scroll nav-link d-xs-none d-sm-none d-md-none d-lg-block">Contato</a>
+                        <a href="#contact2" class="scroll nav-link d-xs-block d-sm-block d-md-block d-lg-none">Contato</a>
                         <a class="menu-line"><i class="fa fa-angle-right font-14" aria-hidden="true"></i></a>
                     </div>
                 </nav>
@@ -274,7 +278,7 @@
                 ARTES NA
                 PLATAFORMA
             </p>
-
+            
             <p class="d-xs-block d-sm-block d-md-block d-lg-none"
                 style="color: white; font-weight: bold;margin-top: 30px;">
                 <span style="color:#fff212">ESPECIALISTAS
@@ -646,7 +650,7 @@
     </div>
 -->
     <div class="row  d-xs-none d-sm-none d-md-none d-lg-flex"
-        style="margin-top:-5px;height:800px; background-image:url('./assets/fundo13.png'); background-repeat: no-repeat;  background-size: cover;background-position: center; color: white !important;">
+        style="margin-top:-5px;min-height:800px; max-height: 1200px; padding-bottom:20px; background-image:url('./assets/fundo13.png'); background-repeat: no-repeat;  background-size: cover;background-position: center; color: white !important;">
         <div class="col-4"
             style=" margin-left: 100px; margin-top: 50px; text-align: left; font-weight: bold; font-size: 14px;">
             <p style="color: white !important; font-size: 18px;">
@@ -662,28 +666,26 @@
                 preste atenção somente nas informações que você
                 deseja passar através de uma postagem. Assim você
                 garante artes de qualidade em poucos minutos, gerando
-                muito além de publicações: mais pro
-                ssionalismo,
+                muito além de publicações: mais profissionalismo,
                 credibilidade e o que há de melhor para sua empresa.
             </p>
 
             <br>
             <p style="color: white !important; font-size: 18px;">
                 Abaixo, como você pode perceber, temos 8
-                informativos, divididos em 2 categorias. Os 3 cards
+                informativos, divididos em 2 categorias. Os 4 cards
                 superiores, referem-se ao uso dos usuários
                 nais,
-                enquanto os 3 cards inferiores, apresentam o painel de
+                enquanto os 4 cards inferiores, apresentam o painel de
                 criação e monitoramento.
             </p>
 
             <br>
             <p style="color: white !important; font-size: 18px;">
-                Note que, enquanto o pro
-                ssional de design requer
+                Note que, enquanto o profissional de design requer
                 amplo conhecimento em criação para que elabore os
                 templates, a complexidade para o usuário
-                nal é
+                final é
                 incrivelmente baixa, tornando o processo prático,
                 simples e ágil, mesmo para quem sabe pouco sobre o
                 assunto.
@@ -1168,7 +1170,7 @@
                                         Artes contar com editor próprio, você não vai deixar de utilizar o seu editor
                                         preferido.
                                         No editor do Gerador de Artes, você realiza apenas as configurações dos modelos
-                                        e os ajustes técnicos. E no seu editor preferido, você realiza toda a base da
+                                        e os ajustes técnicos. no seu editor preferido, você realiza toda a base da
                                         criação da arte.
                                     </div>
                                 </div>
@@ -1196,8 +1198,8 @@
 
                             <div class="cbp-l-project-container d-flex">
                                 <div class="col-10 m-auto">
-                                    <div class="cbp-l-project-desc-text">É possível liberar modelos para clientes
-                                        específicos, pesquisar o arquivo pelo nome, adicionar grupos de clientes e
+                                    <div class="cbp-l-project-desc-text">É possível liberar modelos para usuários
+                                        específicos, pesquisar o arquivo pelo nome, adicionar grupos de usuários e
                                         importar e exportar modelos.</div>
                                 </div>
 
@@ -1227,9 +1229,9 @@
 
                             </div>
                             <br><br><br>
-                            <div class="cbp-l-project-title">Controle de <span class="font-weight-600">Clientes</span>
+                            <div class="cbp-l-project-title">Controle de <span class="font-weight-600">Usuários</span>
                             </div>
-                            <div class="cbp-l-project-subtitle">Nesta aba é possível controlar todos os clientes
+                            <div class="cbp-l-project-subtitle">Nesta aba é possível controlar todos os usuários
                                 cadastrados na plataforma, assim como adicionar ou remover acesso aos modelos e
                                 adicionar entradas pré-definidas (explicadas durante o treinamento ao designer).</div>
                             <div class="cbp-slider">
@@ -1259,7 +1261,7 @@
     <!-- Contact & Map starts -->
 
 
-    <div class="row justify-content-center mx-lg-0 d-xs-none d-sm-none d-md-none d-lg-flex"
+    <div id="contact" class="row justify-content-center mx-lg-0 d-xs-none d-sm-none d-md-none d-lg-flex"
         style=" padding-top:100px; padding-bottom: 50px;background-image:url('./assets/fundo8.png'); background-size: cover; background-position: center;">
         <div class="col-lg-4 col-md-4 col-sm-12 p-0">
             <div class="contact-box box-shadow-contact">
@@ -1312,7 +1314,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center mx-lg-0 d-xs-flex d-sm-flex d-md-flex d-lg-none"
+    <div id="contact2" class="row justify-content-center mx-lg-0 d-xs-flex d-sm-flex d-md-flex d-lg-none"
         style="padding-top:100px; padding-bottom: 50px;background-image:url('./assets/fundo8.png'); background-size: cover; background-position: center;">
         <div class="col-10 p-2">
             <div class="contact-box box-shadow-contact">
